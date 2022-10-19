@@ -1,3 +1,5 @@
+package clases;
+
 public class Alumno {
 
 
@@ -78,7 +80,7 @@ public class Alumno {
 
     @Override
     public String toString() {
-        return "Alumno:" +
+        return "clases.Alumno:" +
                 "/nNombre: '" + Nombre + '\'' +
                 ",/nApellido:'" + Apellido + '\'' +
                 ",/nfechadenacimiento:" + fechadenacimiento +
